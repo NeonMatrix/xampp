@@ -1,0 +1,356 @@
+[Thu Oct 05 11:20:06.729223 2017] [ssl:warn] [pid 3384:tid 528] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 05 11:20:08.066192 2017] [ssl:warn] [pid 3384:tid 528] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 05 11:20:10.174636 2017] [mpm_winnt:notice] [pid 3384:tid 528] AH00455: Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 configured -- resuming normal operations
+[Thu Oct 05 11:20:10.174636 2017] [mpm_winnt:notice] [pid 3384:tid 528] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 11:48:22
+[Thu Oct 05 11:20:10.174636 2017] [core:notice] [pid 3384:tid 528] AH00094: Command line: 'C:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Oct 05 11:20:10.180646 2017] [mpm_winnt:notice] [pid 3384:tid 528] AH00418: Parent: Created child process 3536
+[Thu Oct 05 11:20:15.564261 2017] [ssl:warn] [pid 3536:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 05 11:20:16.210569 2017] [ssl:warn] [pid 3536:tid 564] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Oct 05 11:20:16.523030 2017] [mpm_winnt:notice] [pid 3536:tid 564] AH00354: Child: Starting 150 worker threads.
+[Fri Oct 06 13:21:39.575310 2017] [ssl:warn] [pid 5504:tid 496] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 06 13:21:40.419103 2017] [ssl:warn] [pid 5504:tid 496] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 06 13:22:03.420256 2017] [mpm_winnt:notice] [pid 5504:tid 496] AH00455: Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 configured -- resuming normal operations
+[Fri Oct 06 13:22:03.420256 2017] [mpm_winnt:notice] [pid 5504:tid 496] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 11:48:22
+[Fri Oct 06 13:22:03.420256 2017] [core:notice] [pid 5504:tid 496] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Oct 06 13:22:03.420256 2017] [mpm_winnt:notice] [pid 5504:tid 496] AH00418: Parent: Created child process 6316
+[Fri Oct 06 13:22:06.061014 2017] [ssl:warn] [pid 6316:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 06 13:22:06.701670 2017] [ssl:warn] [pid 6316:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 06 13:22:06.951684 2017] [mpm_winnt:notice] [pid 6316:tid 552] AH00354: Child: Starting 150 worker threads.
+[Fri Oct 06 13:32:36.803039 2017] [php7:error] [pid 6316:tid 1880] [client ::1:53080] PHP Fatal error:  Uncaught Error: Undefined constant 'n' in C:\\xampp\\htdocs\\Lab3\\around.php:13\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\Lab3\\around.php on line 13
+[Fri Oct 06 13:54:33.145409 2017] [php7:crit] [pid 6316:tid 1884] [client ::1:53206] PHP Parse error:  syntax error, unexpected '$num2' (T_VARIABLE), expecting ',' or ';' in C:\\xampp\\htdocs\\Lab3\\if.php on line 13
+[Fri Oct 06 13:55:42.026244 2017] [php7:crit] [pid 6316:tid 1880] [client ::1:53212] PHP Parse error:  syntax error, unexpected '$num2' (T_VARIABLE), expecting ',' or ';' in C:\\xampp\\htdocs\\Lab3\\if.php on line 13
+[Fri Oct 06 13:55:45.569761 2017] [php7:crit] [pid 6316:tid 1880] [client ::1:53212] PHP Parse error:  syntax error, unexpected '$num2' (T_VARIABLE), expecting ',' or ';' in C:\\xampp\\htdocs\\Lab3\\if.php on line 13
+[Fri Oct 06 13:55:51.959817 2017] [php7:crit] [pid 6316:tid 1884] [client ::1:53214] PHP Parse error:  syntax error, unexpected '$num2' (T_VARIABLE), expecting ',' or ';' in C:\\xampp\\htdocs\\Lab3\\if.php on line 13
+[Fri Oct 06 13:56:11.539358 2017] [php7:crit] [pid 6316:tid 1880] [client ::1:53215] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\\xampp\\htdocs\\Lab3\\if.php on line 23
+[Fri Oct 06 14:07:17.744873 2017] [php7:error] [pid 6316:tid 1884] [client ::1:53250] script 'C:/xampp/htdocs/Lab3/eqauality.php' not found or unable to stat
+[Fri Oct 13 13:26:41.150435 2017] [ssl:warn] [pid 7036:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 13 13:26:42.573890 2017] [core:warn] [pid 7036:tid 552] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 13 13:26:43.140876 2017] [ssl:warn] [pid 7036:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 13 13:27:15.308580 2017] [mpm_winnt:notice] [pid 7036:tid 552] AH00455: Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 configured -- resuming normal operations
+[Fri Oct 13 13:27:15.308580 2017] [mpm_winnt:notice] [pid 7036:tid 552] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 11:48:22
+[Fri Oct 13 13:27:15.308580 2017] [core:notice] [pid 7036:tid 552] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Oct 13 13:27:15.360291 2017] [mpm_winnt:notice] [pid 7036:tid 552] AH00418: Parent: Created child process 6744
+[Fri Oct 13 13:27:19.171730 2017] [ssl:warn] [pid 6744:tid 692] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 13 13:27:19.872373 2017] [ssl:warn] [pid 6744:tid 692] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 13 13:27:20.143774 2017] [mpm_winnt:notice] [pid 6744:tid 692] AH00354: Child: Starting 150 worker threads.
+[Fri Oct 13 13:27:21.665900 2017] [php7:crit] [pid 6744:tid 1948] [client ::1:53605] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting '(' in C:\\xampp\\htdocs\\Lab4\\part1.php on line 16
+[Fri Oct 13 13:27:21.665900 2017] [php7:crit] [pid 6744:tid 1944] [client ::1:53606] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting '(' in C:\\xampp\\htdocs\\Lab4\\part1.php on line 16
+[Fri Oct 13 13:27:47.139565 2017] [php7:notice] [pid 6744:tid 1944] [client ::1:53608] PHP Notice:  Use of undefined constant time - assumed 'time' in C:\\xampp\\htdocs\\Lab4\\part1.php on line 12
+[Fri Oct 13 13:43:27.149638 2017] [php7:crit] [pid 6744:tid 1948] [client ::1:53842] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ';' in C:\\xampp\\htdocs\\Lab4\\part2.php on line 32
+[Fri Oct 13 13:51:28.499953 2017] [php7:notice] [pid 6744:tid 1948] [client ::1:53967] PHP Notice:  Undefined index: hour in C:\\xampp\\htdocs\\Lab4\\part3.php on line 8
+[Fri Oct 13 13:51:28.500454 2017] [php7:notice] [pid 6744:tid 1948] [client ::1:53967] PHP Notice:  Undefined variable: hour in C:\\xampp\\htdocs\\Lab4\\part3.php on line 13
+[Fri Oct 13 13:52:04.122136 2017] [php7:notice] [pid 6744:tid 1944] [client ::1:53970] PHP Notice:  Undefined index: hour in C:\\xampp\\htdocs\\Lab4\\part3.php on line 8
+[Fri Oct 13 13:52:04.122636 2017] [php7:notice] [pid 6744:tid 1944] [client ::1:53970] PHP Notice:  Undefined index: hour in C:\\xampp\\htdocs\\Lab4\\part3.php on line 13
+[Fri Oct 13 13:53:12.411179 2017] [php7:notice] [pid 6744:tid 1944] [client ::1:53971] PHP Notice:  Undefined index: hour in C:\\xampp\\htdocs\\Lab4\\part3.php on line 11
+[Fri Oct 13 13:53:12.411679 2017] [php7:notice] [pid 6744:tid 1944] [client ::1:53971] PHP Notice:  Undefined index: hour in C:\\xampp\\htdocs\\Lab4\\part3.php on line 13
+[Fri Oct 13 13:53:37.246565 2017] [php7:notice] [pid 6744:tid 1940] [client ::1:53974] PHP Notice:  Undefined index: hour in C:\\xampp\\htdocs\\Lab4\\part3.php on line 11
+[Fri Oct 13 13:53:37.247067 2017] [php7:notice] [pid 6744:tid 1940] [client ::1:53974] PHP Notice:  Undefined variable: hour in C:\\xampp\\htdocs\\Lab4\\part3.php on line 13
+[Fri Oct 13 13:55:07.788821 2017] [php7:notice] [pid 6744:tid 1940] [client ::1:53976] PHP Notice:  Undefined index: hour in C:\\xampp\\htdocs\\Lab4\\part3.php on line 17
+[Fri Oct 13 13:55:07.789324 2017] [php7:notice] [pid 6744:tid 1940] [client ::1:53976] PHP Notice:  Undefined variable: hour in C:\\xampp\\htdocs\\Lab4\\part3.php on line 19
+[Fri Oct 13 13:55:13.330964 2017] [php7:notice] [pid 6744:tid 1940] [client ::1:53976] PHP Notice:  Undefined variable: hour in C:\\xampp\\htdocs\\Lab4\\part3.php on line 19, referer: http://localhost/lab4/part3.php
+[Fri Oct 13 13:55:57.669436 2017] [php7:notice] [pid 6744:tid 1944] [client ::1:53991] PHP Notice:  Undefined index: hour in C:\\xampp\\htdocs\\Lab4\\part3.php on line 17
+[Fri Oct 13 13:55:57.669937 2017] [php7:notice] [pid 6744:tid 1944] [client ::1:53991] PHP Notice:  Undefined index: hour in C:\\xampp\\htdocs\\Lab4\\part3.php on line 19
+[Fri Oct 13 13:56:11.749537 2017] [php7:notice] [pid 6744:tid 1944] [client ::1:53994] PHP Notice:  Array to string conversion in C:\\xampp\\htdocs\\Lab4\\part3.php on line 23, referer: http://localhost/lab4/part3.php
+[Fri Oct 13 13:56:11.750539 2017] [php7:notice] [pid 6744:tid 1944] [client ::1:53994] PHP Notice:  Undefined variable: Array in C:\\xampp\\htdocs\\Lab4\\part3.php on line 23, referer: http://localhost/lab4/part3.php
+[Fri Oct 13 13:57:17.090687 2017] [php7:notice] [pid 6744:tid 1944] [client ::1:54001] PHP Notice:  Array to string conversion in C:\\xampp\\htdocs\\Lab4\\part3.php on line 23, referer: http://localhost/lab4/part3.php
+[Fri Oct 13 13:57:17.091688 2017] [php7:notice] [pid 6744:tid 1944] [client ::1:54001] PHP Notice:  Undefined variable: Array in C:\\xampp\\htdocs\\Lab4\\part3.php on line 23, referer: http://localhost/lab4/part3.php
+[Fri Oct 13 13:57:22.145456 2017] [php7:notice] [pid 6744:tid 1944] [client ::1:54001] PHP Notice:  Array to string conversion in C:\\xampp\\htdocs\\Lab4\\part3.php on line 23, referer: http://localhost/lab4/part3.php
+[Fri Oct 13 13:57:22.146960 2017] [php7:notice] [pid 6744:tid 1944] [client ::1:54001] PHP Notice:  Undefined variable: Array in C:\\xampp\\htdocs\\Lab4\\part3.php on line 23, referer: http://localhost/lab4/part3.php
+[Fri Oct 13 13:57:38.007916 2017] [php7:notice] [pid 6744:tid 1944] [client ::1:54003] PHP Notice:  Array to string conversion in C:\\xampp\\htdocs\\Lab4\\part3.php on line 23, referer: http://localhost/lab4/part3.php
+[Fri Oct 13 13:57:38.008415 2017] [php7:notice] [pid 6744:tid 1944] [client ::1:54003] PHP Notice:  Undefined variable: Array in C:\\xampp\\htdocs\\Lab4\\part3.php on line 23, referer: http://localhost/lab4/part3.php
+[Fri Oct 13 14:06:33.085972 2017] [php7:notice] [pid 6744:tid 1940] [client ::1:54162] PHP Notice:  Undefined index: num in C:\\xampp\\htdocs\\Lab4\\part4.php on line 20
+[Fri Oct 13 14:08:25.514227 2017] [php7:crit] [pid 6744:tid 1940] [client ::1:54241] PHP Parse error:  syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in C:\\xampp\\htdocs\\Lab4\\part4.php on line 22, referer: http://localhost/lab4/part4.php
+[Fri Oct 13 14:08:41.218910 2017] [php7:crit] [pid 6744:tid 1944] [client ::1:54248] PHP Parse error:  syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in C:\\xampp\\htdocs\\Lab4\\part4.php on line 22, referer: http://localhost/lab4/part4.php
+[Fri Oct 13 14:08:50.116476 2017] [php7:crit] [pid 6744:tid 1940] [client ::1:54250] PHP Parse error:  syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in C:\\xampp\\htdocs\\Lab4\\part4.php on line 22, referer: http://localhost/lab4/part4.php
+[Fri Oct 13 14:09:27.799096 2017] [php7:crit] [pid 6744:tid 1940] [client ::1:54255] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting ',' or ';' in C:\\xampp\\htdocs\\Lab4\\part4.php on line 22, referer: http://localhost/lab4/part4.php
+[Fri Oct 13 14:14:45.318989 2017] [php7:crit] [pid 6744:tid 1940] [client ::1:54302] PHP Parse error:  syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in C:\\xampp\\htdocs\\Lab4\\part4.php on line 22, referer: http://localhost/lab4/part4.php
+[Fri Oct 13 14:15:01.855254 2017] [php7:crit] [pid 6744:tid 1940] [client ::1:54306] PHP Parse error:  syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in C:\\xampp\\htdocs\\Lab4\\part4.php on line 22, referer: http://localhost/lab4/part4.php
+[Fri Oct 13 14:16:43.054419 2017] [php7:crit] [pid 6744:tid 1940] [client ::1:54315] PHP Parse error:  syntax error, unexpected '18' (T_LNUMBER), expecting ',' or ';' in C:\\xampp\\htdocs\\Lab4\\part4.php on line 22, referer: http://localhost/lab4/part4.php
+[Fri Oct 13 14:20:37.708428 2017] [php7:crit] [pid 6744:tid 1940] [client ::1:54352] PHP Parse error:  syntax error, unexpected '$i' (T_VARIABLE), expecting ',' or ';' in C:\\xampp\\htdocs\\Lab4\\part4.php on line 22, referer: http://localhost/lab4/part4.php
+[Fri Oct 13 14:39:32.817121 2017] [php7:notice] [pid 6744:tid 1940] [client ::1:54498] PHP Notice:  Undefined index: hour in C:\\xampp\\htdocs\\Lab4\\header.php on line 57
+[Fri Oct 13 14:39:32.817623 2017] [php7:notice] [pid 6744:tid 1940] [client ::1:54498] PHP Notice:  Undefined index: hour in C:\\xampp\\htdocs\\Lab4\\header.php on line 60
+[Fri Oct 13 14:43:34.049542 2017] [php7:notice] [pid 6744:tid 1936] [client ::1:54518] PHP Notice:  Undefined index: hour in C:\\xampp\\htdocs\\Lab4\\header.php on line 57
+[Fri Oct 13 14:43:34.049542 2017] [php7:notice] [pid 6744:tid 1936] [client ::1:54518] PHP Notice:  Undefined index: hour in C:\\xampp\\htdocs\\Lab4\\header.php on line 60
+[Fri Oct 13 14:45:07.692271 2017] [php7:notice] [pid 6744:tid 1944] [client ::1:54523] PHP Notice:  Undefined index: num in C:\\xampp\\htdocs\\Lab4\\header.php on line 82
+[Fri Oct 20 13:29:41.495282 2017] [ssl:warn] [pid 7232:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 13:29:41.717313 2017] [core:warn] [pid 7232:tid 592] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 20 13:29:41.960301 2017] [ssl:warn] [pid 7232:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 13:29:43.597852 2017] [mpm_winnt:notice] [pid 7232:tid 592] AH00455: Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 configured -- resuming normal operations
+[Fri Oct 20 13:29:43.597852 2017] [mpm_winnt:notice] [pid 7232:tid 592] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 11:48:22
+[Fri Oct 20 13:29:43.597852 2017] [core:notice] [pid 7232:tid 592] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Oct 20 13:29:43.597852 2017] [mpm_winnt:notice] [pid 7232:tid 592] AH00418: Parent: Created child process 1368
+[Fri Oct 20 13:29:45.521025 2017] [ssl:warn] [pid 1368:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 13:29:45.918096 2017] [ssl:warn] [pid 1368:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 20 13:29:46.027577 2017] [mpm_winnt:notice] [pid 1368:tid 560] AH00354: Child: Starting 150 worker threads.
+[Fri Oct 20 13:29:46.683423 2017] [php7:crit] [pid 1368:tid 1948] [client ::1:52429] PHP Parse error:  syntax error, unexpected ',' in C:\\xampp\\htdocs\\Lab5\\part1.php on line 10
+[Fri Oct 20 13:44:58.224144 2017] [php7:crit] [pid 1368:tid 1948] [client ::1:52513] PHP Parse error:  syntax error, unexpected ',' in C:\\xampp\\htdocs\\Lab5\\part1.php on line 24
+[Fri Oct 20 13:45:32.517484 2017] [php7:crit] [pid 1368:tid 1948] [client ::1:52515] PHP Parse error:  syntax error, unexpected ',' in C:\\xampp\\htdocs\\Lab5\\part1.php on line 24
+[Fri Oct 20 13:45:56.587955 2017] [php7:crit] [pid 1368:tid 1948] [client ::1:52517] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\\xampp\\htdocs\\Lab5\\part1.php on line 24
+[Fri Oct 20 13:46:47.103646 2017] [php7:crit] [pid 1368:tid 1948] [client ::1:52520] PHP Parse error:  syntax error, unexpected ',' in C:\\xampp\\htdocs\\Lab5\\part1.php on line 24
+[Fri Oct 20 13:47:00.325986 2017] [php7:crit] [pid 1368:tid 1948] [client ::1:52522] PHP Parse error:  syntax error, unexpected '"Calcutta"' (T_CONSTANT_ENCAPSED_STRING) in C:\\xampp\\htdocs\\Lab5\\part1.php on line 24
+[Fri Oct 20 13:47:30.437075 2017] [php7:crit] [pid 1368:tid 1948] [client ::1:52526] PHP Parse error:  syntax error, unexpected '=' in C:\\xampp\\htdocs\\Lab5\\part1.php on line 24
+[Fri Oct 20 13:48:11.519680 2017] [php7:crit] [pid 1368:tid 1948] [client ::1:52528] PHP Parse error:  syntax error, unexpected '=' in C:\\xampp\\htdocs\\Lab5\\part1.php on line 24
+[Fri Oct 20 14:05:39.771671 2017] [php7:crit] [pid 1368:tid 1948] [client ::1:52599] PHP Parse error:  syntax error, unexpected '.1' (T_DNUMBER), expecting ',' or ')' in C:\\xampp\\htdocs\\Lab5\\part3.php on line 10
+[Fri Oct 20 14:08:27.783056 2017] [php7:notice] [pid 1368:tid 1948] [client ::1:52612] PHP Notice:  Use of undefined constant r - assumed 'r' in C:\\xampp\\htdocs\\Lab5\\part3.php on line 13
+[Fri Oct 20 14:08:56.196741 2017] [php7:notice] [pid 1368:tid 1948] [client ::1:52613] PHP Notice:  Use of undefined constant r - assumed 'r' in C:\\xampp\\htdocs\\Lab5\\part3.php on line 14
+[Fri Oct 20 14:35:13.842731 2017] [php7:crit] [pid 1368:tid 1944] [client ::1:52694] PHP Parse error:  syntax error, unexpected '[', expecting '(' in C:\\xampp\\htdocs\\Lab5\\part4.php on line 18
+[Fri Oct 20 14:38:33.782125 2017] [php7:notice] [pid 1368:tid 1948] [client ::1:52703] PHP Notice:  Undefined offset: 10 in C:\\xampp\\htdocs\\Lab5\\part4.php on line 27
+[Fri Oct 20 14:40:31.468144 2017] [php7:notice] [pid 1368:tid 1948] [client ::1:52710] PHP Notice:  Undefined offset: 26 in C:\\xampp\\htdocs\\Lab5\\part4.php on line 24
+[Fri Oct 20 14:40:38.781332 2017] [php7:notice] [pid 1368:tid 1944] [client ::1:52709] PHP Notice:  Undefined offset: 10 in C:\\xampp\\htdocs\\Lab5\\part4.php on line 27
+[Fri Oct 20 14:40:38.781833 2017] [php7:notice] [pid 1368:tid 1944] [client ::1:52709] PHP Notice:  Undefined offset: 10 in C:\\xampp\\htdocs\\Lab5\\part4.php on line 27
+[Fri Oct 20 14:40:38.782834 2017] [php7:notice] [pid 1368:tid 1944] [client ::1:52709] PHP Notice:  Undefined offset: 8 in C:\\xampp\\htdocs\\Lab5\\part4.php on line 30
+[Fri Oct 20 14:43:55.030784 2017] [php7:notice] [pid 1368:tid 1944] [client ::1:52721] PHP Notice:  Undefined offset: 8 in C:\\xampp\\htdocs\\Lab5\\part4.php on line 30
+[Fri Oct 20 14:44:26.120489 2017] [php7:notice] [pid 1368:tid 1944] [client ::1:52725] PHP Notice:  Undefined offset: 26 in C:\\xampp\\htdocs\\Lab5\\part4.php on line 21
+[Fri Nov 10 11:11:17.767746 2017] [ssl:warn] [pid 7596:tid 572] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 11:11:18.095887 2017] [core:warn] [pid 7596:tid 572] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Nov 10 11:11:18.330370 2017] [ssl:warn] [pid 7596:tid 572] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 11:11:20.096081 2017] [mpm_winnt:notice] [pid 7596:tid 572] AH00455: Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 configured -- resuming normal operations
+[Fri Nov 10 11:11:20.096081 2017] [mpm_winnt:notice] [pid 7596:tid 572] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 11:48:22
+[Fri Nov 10 11:11:20.096081 2017] [core:notice] [pid 7596:tid 572] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Nov 10 11:11:20.127334 2017] [mpm_winnt:notice] [pid 7596:tid 572] AH00418: Parent: Created child process 1872
+[Fri Nov 10 11:11:21.932597 2017] [ssl:warn] [pid 1872:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 11:11:22.260737 2017] [ssl:warn] [pid 1872:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 11:11:22.448247 2017] [mpm_winnt:notice] [pid 1872:tid 588] AH00354: Child: Starting 150 worker threads.
+[Fri Nov 10 11:11:29.740339 2017] [php7:warn] [pid 1872:tid 1948] [client ::1:54593] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 11:41:35.083072 2017] [php7:warn] [pid 1872:tid 1936] [client ::1:55340] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 11:41:37.900556 2017] [php7:warn] [pid 1872:tid 1936] [client ::1:55340] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 11:41:39.438434 2017] [php7:warn] [pid 1872:tid 1936] [client ::1:55340] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 11:43:14.429551 2017] [php7:warn] [pid 1872:tid 1936] [client ::1:55351] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 11:49:02.496084 2017] [php7:warn] [pid 1872:tid 1928] [client ::1:55390] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 11:49:47.044713 2017] [php7:crit] [pid 1872:tid 1928] [client ::1:55396] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in C:\\xampp\\htdocs\\lab6\\part1.php on line 34
+[Fri Nov 10 11:50:48.311014 2017] [php7:warn] [pid 1872:tid 1936] [client ::1:55398] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 11:51:11.473077 2017] [php7:warn] [pid 1872:tid 1936] [client ::1:55402] PHP Warning:  mysqli_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.\r\n in C:\\xampp\\htdocs\\lab6\\part1.php on line 13
+[Fri Nov 10 11:51:11.475080 2017] [php7:warn] [pid 1872:tid 1936] [client ::1:55402] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in C:\\xampp\\htdocs\\lab6\\part1.php on line 13
+[Fri Nov 10 11:51:25.071395 2017] [php7:warn] [pid 1872:tid 1944] [client ::1:55407] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 11:52:41.805490 2017] [php7:warn] [pid 1872:tid 1936] [client ::1:55420] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 11:52:52.110464 2017] [php7:warn] [pid 1872:tid 1936] [client ::1:55424] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 11:54:19.750688 2017] [php7:error] [pid 1872:tid 1936] [client ::1:55439] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in C:\\xampp\\htdocs\\lab6\\part1.php:16\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\lab6\\part1.php on line 16
+[Fri Nov 10 12:29:12.948103 2017] [php7:error] [pid 1872:tid 1936] [client ::1:55460] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in C:\\xampp\\htdocs\\lab6\\part1.php:16\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\lab6\\part1.php on line 16
+[Fri Nov 10 12:30:48.198297 2017] [php7:error] [pid 1872:tid 1944] [client ::1:55483] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_row() in C:\\xampp\\htdocs\\lab6\\part1.php:29\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 12:30:57.468948 2017] [php7:error] [pid 1872:tid 1936] [client ::1:55484] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_row() in C:\\xampp\\htdocs\\lab6\\part1.php:29\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 12:31:00.385105 2017] [php7:error] [pid 1872:tid 1936] [client ::1:55484] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_row() in C:\\xampp\\htdocs\\lab6\\part1.php:29\nStack trace:\n#0 {main}\n  thrown in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 12:31:16.137894 2017] [php7:warn] [pid 1872:tid 1936] [client ::1:55496] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 12:31:30.425338 2017] [php7:warn] [pid 1872:tid 1944] [client ::1:55501] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 12:34:12.382447 2017] [php7:warn] [pid 1872:tid 1936] [client ::1:55510] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 12:34:15.466594 2017] [php7:warn] [pid 1872:tid 1936] [client ::1:55510] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 12:34:28.620877 2017] [php7:warn] [pid 1872:tid 1936] [client ::1:55517] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 12:34:30.382929 2017] [php7:warn] [pid 1872:tid 1936] [client ::1:55517] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in C:\\xampp\\htdocs\\lab6\\part1.php on line 29
+[Fri Nov 10 12:56:43.556295 2017] [php7:notice] [pid 1872:tid 1928] [client ::1:55948] PHP Notice:  Undefined index: uname in C:\\xampp\\htdocs\\lab6\\part2.php on line 14
+[Fri Nov 10 12:56:43.556295 2017] [php7:notice] [pid 1872:tid 1928] [client ::1:55948] PHP Notice:  Undefined index: password in C:\\xampp\\htdocs\\lab6\\part2.php on line 15
+[Fri Nov 10 12:56:43.556295 2017] [php7:notice] [pid 1872:tid 1928] [client ::1:55948] PHP Notice:  Undefined index: fname in C:\\xampp\\htdocs\\lab6\\part2.php on line 16
+[Fri Nov 10 12:56:43.556295 2017] [php7:notice] [pid 1872:tid 1928] [client ::1:55948] PHP Notice:  Undefined index: lname in C:\\xampp\\htdocs\\lab6\\part2.php on line 17
+[Fri Nov 10 13:21:03.537035 2017] [php7:notice] [pid 1872:tid 1944] [client ::1:56001] PHP Notice:  Undefined index: uname in C:\\xampp\\htdocs\\lab6\\part2.php on line 14
+[Fri Nov 10 13:21:03.537035 2017] [php7:notice] [pid 1872:tid 1944] [client ::1:56001] PHP Notice:  Undefined index: password in C:\\xampp\\htdocs\\lab6\\part2.php on line 15
+[Fri Nov 10 13:21:03.537035 2017] [php7:notice] [pid 1872:tid 1944] [client ::1:56001] PHP Notice:  Undefined index: fname in C:\\xampp\\htdocs\\lab6\\part2.php on line 16
+[Fri Nov 10 13:21:03.537035 2017] [php7:notice] [pid 1872:tid 1944] [client ::1:56001] PHP Notice:  Undefined index: lname in C:\\xampp\\htdocs\\lab6\\part2.php on line 17
+[Fri Nov 10 13:44:06.590770 2017] [ssl:warn] [pid 3908:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 13:44:06.762652 2017] [core:warn] [pid 3908:tid 552] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Nov 10 13:44:06.981412 2017] [ssl:warn] [pid 3908:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 13:44:07.168922 2017] [mpm_winnt:notice] [pid 3908:tid 552] AH00455: Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 configured -- resuming normal operations
+[Fri Nov 10 13:44:07.168922 2017] [mpm_winnt:notice] [pid 3908:tid 552] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 11:48:22
+[Fri Nov 10 13:44:07.168922 2017] [core:notice] [pid 3908:tid 552] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Nov 10 13:44:07.184549 2017] [mpm_winnt:notice] [pid 3908:tid 552] AH00418: Parent: Created child process 8912
+[Fri Nov 10 13:44:09.028385 2017] [ssl:warn] [pid 8912:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 13:44:09.548110 2017] [ssl:warn] [pid 8912:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 10 13:44:09.688316 2017] [mpm_winnt:notice] [pid 8912:tid 552] AH00354: Child: Starting 150 worker threads.
+[Fri Nov 10 13:50:23.000382 2017] [php7:crit] [pid 8912:tid 1972] [client ::1:56117] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in C:\\xampp\\htdocs\\lab7\\home.php on line 34
+[Fri Nov 10 13:50:47.231597 2017] [php7:crit] [pid 8912:tid 1972] [client ::1:56120] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in C:\\xampp\\htdocs\\lab7\\home.php on line 34
+[Fri Nov 10 13:51:11.775773 2017] [php7:crit] [pid 8912:tid 1972] [client ::1:56121] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in C:\\xampp\\htdocs\\lab7\\home.php on line 34
+[Fri Nov 10 13:55:48.903676 2017] [php7:crit] [pid 8912:tid 1944] [client ::1:56163] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in C:\\xampp\\htdocs\\lab7\\add.php on line 34, referer: http://localhost/lab7/home.php
+[Fri Nov 10 14:06:01.420378 2017] [php7:notice] [pid 8912:tid 1972] [client ::1:56221] PHP Notice:  Undefined index: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 17, referer: http://localhost/lab7/home.php
+[Fri Nov 10 14:06:01.420378 2017] [php7:notice] [pid 8912:tid 1972] [client ::1:56221] PHP Notice:  Undefined index: description in C:\\xampp\\htdocs\\lab7\\add.php on line 18, referer: http://localhost/lab7/home.php
+[Fri Nov 10 14:06:01.420378 2017] [php7:notice] [pid 8912:tid 1972] [client ::1:56221] PHP Notice:  Undefined index: price in C:\\xampp\\htdocs\\lab7\\add.php on line 19, referer: http://localhost/lab7/home.php
+[Fri Nov 10 14:06:01.421379 2017] [php7:notice] [pid 8912:tid 1972] [client ::1:56221] PHP Notice:  Undefined index: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 20, referer: http://localhost/lab7/home.php
+[Fri Nov 10 14:06:06.491521 2017] [php7:notice] [pid 8912:tid 1972] [client ::1:56221] PHP Notice:  Undefined index: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 17, referer: http://localhost/lab7/home.php
+[Fri Nov 10 14:06:06.491521 2017] [php7:notice] [pid 8912:tid 1972] [client ::1:56221] PHP Notice:  Undefined index: description in C:\\xampp\\htdocs\\lab7\\add.php on line 18, referer: http://localhost/lab7/home.php
+[Fri Nov 10 14:06:06.492523 2017] [php7:notice] [pid 8912:tid 1972] [client ::1:56221] PHP Notice:  Undefined index: price in C:\\xampp\\htdocs\\lab7\\add.php on line 19, referer: http://localhost/lab7/home.php
+[Fri Nov 10 14:06:06.492523 2017] [php7:notice] [pid 8912:tid 1972] [client ::1:56221] PHP Notice:  Undefined index: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 20, referer: http://localhost/lab7/home.php
+[Fri Nov 10 14:39:15.317056 2017] [php7:notice] [pid 8912:tid 1932] [client ::1:56536] PHP Notice:  Undefined index: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 18, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:39:15.318057 2017] [php7:notice] [pid 8912:tid 1932] [client ::1:56536] PHP Notice:  Undefined index: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 19, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:39:15.319061 2017] [php7:notice] [pid 8912:tid 1932] [client ::1:56536] PHP Notice:  Undefined index: price in C:\\xampp\\htdocs\\lab7\\add.php on line 20, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:39:15.320061 2017] [php7:notice] [pid 8912:tid 1932] [client ::1:56536] PHP Notice:  Undefined index: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 21, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:39:20.474878 2017] [php7:notice] [pid 8912:tid 1932] [client ::1:56536] PHP Notice:  Undefined index: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 18, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:39:20.474878 2017] [php7:notice] [pid 8912:tid 1932] [client ::1:56536] PHP Notice:  Undefined index: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 19, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:39:20.475881 2017] [php7:notice] [pid 8912:tid 1932] [client ::1:56536] PHP Notice:  Undefined index: price in C:\\xampp\\htdocs\\lab7\\add.php on line 20, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:39:20.476888 2017] [php7:notice] [pid 8912:tid 1932] [client ::1:56536] PHP Notice:  Undefined index: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 21, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:42:51.671760 2017] [php7:notice] [pid 8912:tid 1932] [client ::1:56555] PHP Notice:  Undefined index: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 18, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:42:51.672763 2017] [php7:notice] [pid 8912:tid 1932] [client ::1:56555] PHP Notice:  Undefined index: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 19, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:42:51.672763 2017] [php7:notice] [pid 8912:tid 1932] [client ::1:56555] PHP Notice:  Undefined index: price in C:\\xampp\\htdocs\\lab7\\add.php on line 20, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:42:51.673762 2017] [php7:notice] [pid 8912:tid 1932] [client ::1:56555] PHP Notice:  Undefined index: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 21, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:48:30.195484 2017] [php7:crit] [pid 8912:tid 1928] [client ::1:56584] PHP Parse error:  syntax error, unexpected ';' in C:\\xampp\\htdocs\\lab7\\add.php on line 18, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:49:26.174404 2017] [php7:crit] [pid 8912:tid 1928] [client ::1:56588] PHP Parse error:  syntax error, unexpected ';' in C:\\xampp\\htdocs\\lab7\\add.php on line 18, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:51:28.193759 2017] [php7:notice] [pid 8912:tid 1928] [client ::1:56590] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 39, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:51:28.193759 2017] [php7:notice] [pid 8912:tid 1928] [client ::1:56590] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 39, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:51:28.193759 2017] [php7:notice] [pid 8912:tid 1928] [client ::1:56590] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 39, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:51:28.193759 2017] [php7:notice] [pid 8912:tid 1928] [client ::1:56590] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 39, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:51:32.304379 2017] [php7:notice] [pid 8912:tid 1928] [client ::1:56590] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 39, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:51:32.304379 2017] [php7:notice] [pid 8912:tid 1928] [client ::1:56590] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 39, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:51:32.304379 2017] [php7:notice] [pid 8912:tid 1928] [client ::1:56590] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 39, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:51:32.308383 2017] [php7:notice] [pid 8912:tid 1928] [client ::1:56590] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 39, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:55:20.457300 2017] [php7:notice] [pid 8912:tid 1928] [client ::1:56598] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:55:20.457300 2017] [php7:notice] [pid 8912:tid 1928] [client ::1:56598] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:55:20.457300 2017] [php7:notice] [pid 8912:tid 1928] [client ::1:56598] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:55:20.461305 2017] [php7:notice] [pid 8912:tid 1928] [client ::1:56598] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:55:25.293856 2017] [php7:notice] [pid 8912:tid 1928] [client ::1:56598] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:55:25.297858 2017] [php7:notice] [pid 8912:tid 1928] [client ::1:56598] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:55:25.297858 2017] [php7:notice] [pid 8912:tid 1928] [client ::1:56598] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/delete.php
+[Fri Nov 10 14:55:25.297858 2017] [php7:notice] [pid 8912:tid 1928] [client ::1:56598] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/delete.php
+[Fri Nov 17 13:20:56.574933 2017] [ssl:warn] [pid 8500:tid 216] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 17 13:20:56.981199 2017] [core:warn] [pid 8500:tid 216] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Nov 17 13:20:57.184333 2017] [ssl:warn] [pid 8500:tid 216] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 17 13:20:59.872135 2017] [mpm_winnt:notice] [pid 8500:tid 216] AH00455: Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 configured -- resuming normal operations
+[Fri Nov 17 13:20:59.872135 2017] [mpm_winnt:notice] [pid 8500:tid 216] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 11:48:22
+[Fri Nov 17 13:20:59.872135 2017] [core:notice] [pid 8500:tid 216] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Nov 17 13:20:59.903392 2017] [mpm_winnt:notice] [pid 8500:tid 216] AH00418: Parent: Created child process 1804
+[Fri Nov 17 13:21:02.372078 2017] [ssl:warn] [pid 1804:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 17 13:21:02.918981 2017] [ssl:warn] [pid 1804:tid 556] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 17 13:21:03.137742 2017] [mpm_winnt:notice] [pid 1804:tid 556] AH00354: Child: Starting 150 worker threads.
+[Fri Nov 17 13:28:41.289912 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51109] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/update.php
+[Fri Nov 17 13:28:41.290911 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51109] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/update.php
+[Fri Nov 17 13:28:41.291912 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51109] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/update.php
+[Fri Nov 17 13:28:41.291912 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51109] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/update.php
+[Fri Nov 17 13:29:05.767287 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51114] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/update.php
+[Fri Nov 17 13:29:05.767287 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51114] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/update.php
+[Fri Nov 17 13:29:05.768288 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51114] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/update.php
+[Fri Nov 17 13:29:05.768288 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51114] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/update.php
+[Fri Nov 17 13:29:53.769213 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51124] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/update.php
+[Fri Nov 17 13:29:53.770215 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51124] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/update.php
+[Fri Nov 17 13:29:53.770215 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51124] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/update.php
+[Fri Nov 17 13:29:53.771216 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51124] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/update.php
+[Fri Nov 17 13:30:05.029956 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51127] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:30:05.030953 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51127] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:30:05.030953 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51127] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:30:53.937798 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51130] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:30:53.938800 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51130] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:30:53.938800 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51130] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 42, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:34:48.355517 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51163] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:34:48.355517 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51163] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:34:48.356518 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51163] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:34:48.356518 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51163] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:35:07.533199 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51165] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:35:07.533199 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51165] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:35:07.534199 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51165] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:35:07.535200 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51165] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:36:32.742342 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51169] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:36:32.742342 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51169] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:36:32.743344 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51169] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:36:32.744345 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51169] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:36:38.810949 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51169] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:36:38.811948 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51169] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:36:38.812949 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51169] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:36:38.813952 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51169] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:36:51.648702 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51175] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:36:51.649704 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51175] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:36:51.649704 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51175] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:36:51.650705 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51175] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:38.423664 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:38.425667 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:38.425667 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:38.426668 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:44.586653 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:44.587654 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:44.587654 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:44.588656 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:47.806541 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:47.807543 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:47.807543 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:47.808546 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:49.003580 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:49.003580 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:49.004581 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:49.004581 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:50.080492 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:50.097624 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:50.098629 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:38:50.098629 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51180] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:39:16.062334 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51190] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:39:16.063336 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51190] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:39:16.063336 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51190] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:39:16.064336 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51190] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:39:22.604359 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51190] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:39:22.605361 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51190] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:39:22.605361 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51190] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:39:22.606363 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51190] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:39:35.787063 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51195] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:39:35.788065 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51195] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:39:35.789067 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51195] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:39:35.789067 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51195] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:39:41.237256 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51195] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:39:41.237256 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51195] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:39:41.238257 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51195] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:39:41.239259 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51195] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:40:24.017883 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51201] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:40:24.018884 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51201] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:40:24.019884 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51201] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:40:24.019884 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51201] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 25, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:43:00.545129 2017] [php7:crit] [pid 1804:tid 1948] [client ::1:51204] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND) in C:\\xampp\\htdocs\\lab7\\add.php on line 16, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:43:20.475142 2017] [php7:crit] [pid 1804:tid 1928] [client ::1:51206] PHP Parse error:  syntax error, unexpected '}' in C:\\xampp\\htdocs\\lab7\\add.php on line 23, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:43:36.250395 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51209] PHP Notice:  Undefined index: AddNew in C:\\xampp\\htdocs\\lab7\\add.php on line 22, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:43:36.260410 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51209] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 35, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:43:36.261411 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51209] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 35, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:43:36.261411 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51209] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 35, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:43:36.262414 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51209] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 35, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:43:42.390574 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51209] PHP Notice:  Undefined index: AddNew in C:\\xampp\\htdocs\\lab7\\add.php on line 22, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:43:42.402592 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51209] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 35, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:43:42.403596 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51209] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 35, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:43:42.404596 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51209] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 35, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:43:42.405594 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51209] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 35, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:44:21.909184 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51214] PHP Notice:  Undefined index: AddNew in C:\\xampp\\htdocs\\lab7\\add.php on line 22, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:44:21.914191 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51214] PHP Notice:  Undefined variable: db in C:\\xampp\\htdocs\\lab7\\add.php on line 23, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:44:21.915193 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51214] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:44:21.916194 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51214] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:44:21.916194 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51214] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:44:21.917195 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51214] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:44:21.918197 2017] [php7:warn] [pid 1804:tid 1928] [client ::1:51214] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:44:27.917380 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51214] PHP Notice:  Undefined index: AddNew in C:\\xampp\\htdocs\\lab7\\add.php on line 22, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:44:27.918382 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51214] PHP Notice:  Undefined variable: db in C:\\xampp\\htdocs\\lab7\\add.php on line 23, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:44:27.919384 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51214] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:44:27.919384 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51214] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:44:27.920387 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51214] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:44:27.921387 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51214] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:44:27.921387 2017] [php7:warn] [pid 1804:tid 1928] [client ::1:51214] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:44:42.231681 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51219] PHP Notice:  Undefined index: AddNew in C:\\xampp\\htdocs\\lab7\\add.php on line 22, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:44:42.232681 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51219] PHP Notice:  Undefined variable: db in C:\\xampp\\htdocs\\lab7\\add.php on line 23, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:44:42.232681 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51219] PHP Notice:  Undefined variable: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:44:42.233682 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51219] PHP Notice:  Undefined variable: desc in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:44:42.233682 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51219] PHP Notice:  Undefined variable: price in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:44:42.234684 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51219] PHP Notice:  Undefined variable: stock in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:44:42.235685 2017] [php7:warn] [pid 1804:tid 1928] [client ::1:51219] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\\xampp\\htdocs\\lab7\\add.php on line 24, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:48:56.984452 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51237] PHP Notice:  Undefined index: AddNew in C:\\xampp\\htdocs\\lab7\\add.php on line 28, referer: http://localhost/lab7/delete.php
+[Fri Nov 17 13:48:56.985453 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51237] PHP Notice:  Undefined variable: db in C:\\xampp\\htdocs\\lab7\\add.php on line 29, referer: http://localhost/lab7/delete.php
+[Fri Nov 17 13:48:56.986455 2017] [php7:warn] [pid 1804:tid 1928] [client ::1:51237] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\\xampp\\htdocs\\lab7\\add.php on line 30, referer: http://localhost/lab7/delete.php
+[Fri Nov 17 13:49:08.696347 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51240] PHP Notice:  Undefined index: AddNew in C:\\xampp\\htdocs\\lab7\\add.php on line 28, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:49:08.697347 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51240] PHP Notice:  Undefined variable: db in C:\\xampp\\htdocs\\lab7\\add.php on line 29, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:49:08.697347 2017] [php7:warn] [pid 1804:tid 1928] [client ::1:51240] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\\xampp\\htdocs\\lab7\\add.php on line 30, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:52:00.815795 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51244] PHP Notice:  Undefined index: prodID in C:\\xampp\\htdocs\\lab7\\add.php on line 21, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:52:07.911329 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51244] PHP Notice:  Undefined index: prodID in C:\\xampp\\htdocs\\lab7\\add.php on line 21, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:52:24.901541 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51249] PHP Notice:  Undefined index: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 21, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:52:42.061751 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51251] PHP Notice:  Undefined variable: db in C:\\xampp\\htdocs\\lab7\\add.php on line 26, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:52:42.062753 2017] [php7:warn] [pid 1804:tid 1928] [client ::1:51251] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\\xampp\\htdocs\\lab7\\add.php on line 27, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:53:38.077540 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51258] PHP Notice:  Undefined index: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 23, referer: http://localhost/lab7/home.php
+[Fri Nov 17 13:57:57.111726 2017] [php7:crit] [pid 1804:tid 1948] [client ::1:51266] PHP Parse error:  syntax error, unexpected 'post' (T_STRING), expecting ',' or ';' in C:\\xampp\\htdocs\\lab7\\delete.php on line 23, referer: http://localhost/lab7/add.php
+[Fri Nov 17 13:59:24.359564 2017] [php7:crit] [pid 1804:tid 1928] [client ::1:51268] PHP Parse error:  syntax error, unexpected 'post' (T_STRING), expecting ',' or ';' in C:\\xampp\\htdocs\\lab7\\delete.php on line 24, referer: http://localhost/lab7/add.php
+[Fri Nov 17 14:00:12.948964 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51271] PHP Notice:  Undefined index: prodID in C:\\xampp\\htdocs\\lab7\\delete.php on line 19, referer: http://localhost/lab7/add.php
+[Fri Nov 17 14:02:16.562408 2017] [php7:notice] [pid 1804:tid 1928] [client ::1:51277] PHP Notice:  Undefined index: confirm in C:\\xampp\\htdocs\\lab7\\delete.php on line 19, referer: http://localhost/lab7/delete.php
+[Fri Nov 17 14:02:24.522722 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51276] PHP Notice:  Undefined index: confirm in C:\\xampp\\htdocs\\lab7\\delete.php on line 19, referer: http://localhost/lab7/delete.php
+[Fri Nov 17 14:07:16.144540 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51307] PHP Notice:  Undefined index: Delete in C:\\xampp\\htdocs\\lab7\\delete.php on line 20, referer: http://localhost/lab7/delete.php
+[Fri Nov 17 14:07:16.144540 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51307] PHP Notice:  Undefined index: YES in C:\\xampp\\htdocs\\lab7\\delete.php on line 32, referer: http://localhost/lab7/delete.php
+[Fri Nov 17 14:08:25.405690 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51311] PHP Notice:  Undefined index: Delete in C:\\xampp\\htdocs\\lab7\\delete.php on line 21, referer: http://localhost/lab7/delete.php
+[Fri Nov 17 14:08:25.406693 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51311] PHP Notice:  Undefined index: YES in C:\\xampp\\htdocs\\lab7\\delete.php on line 33, referer: http://localhost/lab7/delete.php
+[Fri Nov 17 14:08:31.749593 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51311] PHP Notice:  Undefined index: Delete in C:\\xampp\\htdocs\\lab7\\delete.php on line 21, referer: http://localhost/lab7/home.php
+[Fri Nov 17 14:08:31.750594 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51311] PHP Notice:  Undefined index: YES in C:\\xampp\\htdocs\\lab7\\delete.php on line 33, referer: http://localhost/lab7/home.php
+[Fri Nov 17 14:24:33.102173 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51389] PHP Notice:  Undefined index: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 23, referer: http://localhost/lab7/delete.php
+[Fri Nov 17 14:26:56.424788 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51415] PHP Notice:  Undefined index: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 23, referer: http://localhost/lab7/home.php
+[Fri Nov 17 14:28:15.132362 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51429] PHP Notice:  Undefined index: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 23, referer: http://localhost/lab7/home.php
+[Fri Nov 17 14:28:48.563090 2017] [php7:notice] [pid 1804:tid 1948] [client ::1:51436] PHP Notice:  Undefined index: pname in C:\\xampp\\htdocs\\lab7\\add.php on line 23, referer: http://localhost/lab7/home.php
+[Sun Nov 19 20:42:37.169400 2017] [ssl:warn] [pid 15668:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 19 20:42:37.222606 2017] [core:warn] [pid 15668:tid 576] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 19 20:42:37.282312 2017] [ssl:warn] [pid 15668:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 19 20:42:37.646512 2017] [mpm_winnt:notice] [pid 15668:tid 576] AH00455: Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 configured -- resuming normal operations
+[Sun Nov 19 20:42:37.646512 2017] [mpm_winnt:notice] [pid 15668:tid 576] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 11:48:22
+[Sun Nov 19 20:42:37.646512 2017] [core:notice] [pid 15668:tid 576] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Nov 19 20:42:37.666065 2017] [mpm_winnt:notice] [pid 15668:tid 576] AH00418: Parent: Created child process 12844
+[Sun Nov 19 20:42:39.723363 2017] [ssl:warn] [pid 12844:tid 204] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 19 20:42:39.830194 2017] [ssl:warn] [pid 12844:tid 204] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 19 20:42:40.025757 2017] [mpm_winnt:notice] [pid 12844:tid 204] AH00354: Child: Starting 150 worker threads.
+[Sun Nov 19 20:42:51.304781 2017] [php7:error] [pid 12844:tid 1916] [client ::1:59091] script 'C:/xampp/htdocs/lab7.home.php' not found or unable to stat

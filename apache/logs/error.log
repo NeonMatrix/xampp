@@ -354,3 +354,14 @@
 [Sun Nov 19 20:42:39.830194 2017] [ssl:warn] [pid 12844:tid 204] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Sun Nov 19 20:42:40.025757 2017] [mpm_winnt:notice] [pid 12844:tid 204] AH00354: Child: Starting 150 worker threads.
 [Sun Nov 19 20:42:51.304781 2017] [php7:error] [pid 12844:tid 1916] [client ::1:59091] script 'C:/xampp/htdocs/lab7.home.php' not found or unable to stat
+[Mon Nov 20 20:27:52.737721 2017] [ssl:warn] [pid 10956:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 20 20:27:52.786210 2017] [core:warn] [pid 10956:tid 568] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Nov 20 20:27:52.843021 2017] [ssl:warn] [pid 10956:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 20 20:27:53.211665 2017] [mpm_winnt:notice] [pid 10956:tid 568] AH00455: Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 configured -- resuming normal operations
+[Mon Nov 20 20:27:53.211665 2017] [mpm_winnt:notice] [pid 10956:tid 568] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 11:48:22
+[Mon Nov 20 20:27:53.211665 2017] [core:notice] [pid 10956:tid 568] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Nov 20 20:27:53.231218 2017] [mpm_winnt:notice] [pid 10956:tid 568] AH00418: Parent: Created child process 15628
+[Mon Nov 20 20:27:54.221091 2017] [ssl:warn] [pid 15628:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 20 20:27:54.316590 2017] [ssl:warn] [pid 15628:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 20 20:27:55.499863 2017] [mpm_winnt:notice] [pid 15628:tid 548] AH00354: Child: Starting 150 worker threads.
+[Mon Nov 20 21:08:57.446476 2017] [php7:error] [pid 15628:tid 1936] [client ::1:53151] script 'C:/xampp/htdocs/CA/login.php' not found or unable to stat, referer: http://localhost/CA/index.html

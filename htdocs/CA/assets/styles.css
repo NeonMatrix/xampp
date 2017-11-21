@@ -1,6 +1,5 @@
 header
 {
-	font-size: 5vw;
 	font-size: 7vh;
 	text-align: center;
 
@@ -8,10 +7,28 @@ header
 
 #login
 {
-	margin: 0 auto;
-	position: absolute;
-	left: 45%;
-	top: 25%;
+	padding:25%;
+	text-align: center;
 	font-size: 2vw;
 	font-size: 4vh;
+}
+
+#register
+{
+	padding:5%;
+	border-style: inset;
+	border-width: 10px;
+	width: 50%;
+}
+
+.loginform
+{
+
+	float: right;
+    color: black;	
+}
+
+input[type=submit].loginform
+{
+	float: none;
 }

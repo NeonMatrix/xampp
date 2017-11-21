@@ -1,0 +1,1 @@
+CREATE TABLE `CA`.`users` ( `username` VARCHAR(30) NOT NULL , `password` VARCHAR(6) NOT NULL , `firstname` VARCHAR(30) NOT NULL , `surname` VARCHAR(30) NOT NULL , `addressline1` VARCHAR(60) NOT NULL , `addressline2` VARCHAR(60) NOT NULL , `city` VARCHAR(30) NOT NULL , `telephone` INT(10) NOT NULL , `mobile` INT(10) NOT NULL , PRIMARY KEY (`username`)) ENGINE = InnoDB;

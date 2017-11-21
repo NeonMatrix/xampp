@@ -365,3 +365,15 @@
 [Mon Nov 20 20:27:54.316590 2017] [ssl:warn] [pid 15628:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Mon Nov 20 20:27:55.499863 2017] [mpm_winnt:notice] [pid 15628:tid 548] AH00354: Child: Starting 150 worker threads.
 [Mon Nov 20 21:08:57.446476 2017] [php7:error] [pid 15628:tid 1936] [client ::1:53151] script 'C:/xampp/htdocs/CA/login.php' not found or unable to stat, referer: http://localhost/CA/index.html
+[Tue Nov 21 20:52:09.246985 2017] [ssl:warn] [pid 14244:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 21 20:52:09.290791 2017] [core:warn] [pid 14244:tid 592] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Nov 21 20:52:09.348607 2017] [ssl:warn] [pid 14244:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 21 20:52:09.719454 2017] [mpm_winnt:notice] [pid 14244:tid 592] AH00455: Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 configured -- resuming normal operations
+[Tue Nov 21 20:52:09.719454 2017] [mpm_winnt:notice] [pid 14244:tid 592] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 11:48:22
+[Tue Nov 21 20:52:09.719454 2017] [core:notice] [pid 14244:tid 592] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Nov 21 20:52:09.738661 2017] [mpm_winnt:notice] [pid 14244:tid 592] AH00418: Parent: Created child process 3896
+[Tue Nov 21 20:52:11.620097 2017] [ssl:warn] [pid 3896:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 21 20:52:11.727664 2017] [ssl:warn] [pid 3896:tid 548] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 21 20:52:11.897731 2017] [mpm_winnt:notice] [pid 3896:tid 548] AH00354: Child: Starting 150 worker threads.
+[Tue Nov 21 20:54:27.870264 2017] [php7:crit] [pid 3896:tid 1916] [client ::1:54846] PHP Parse error:  syntax error, unexpected ')' in C:\\xampp\\htdocs\\CA\\register.php on line 32, referer: http://localhost/CA/index.html
+[Tue Nov 21 21:25:13.290045 2017] [php7:notice] [pid 3896:tid 1900] [client ::1:57245] PHP Notice:  Undefined variable: faname in C:\\xampp\\htdocs\\CA\\register.php on line 32, referer: http://localhost/CA/register.php

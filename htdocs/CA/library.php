@@ -44,9 +44,23 @@
 
 <header>Welcome to the library</header>
 
-<form method="post" onsubmit="return confirm ('Are you sure you want to log out?')";>
-		<p><input type="submit" value="LOG OUT" name="logout"/></p>
-</form>
+<div>
+		<ul>
+			<li ><a href="search.php">Search</a></li>
+			<li ><a href="reservedbooks.php">View Reserved Books</a></li>
+			<li style="float:right;">
+			<form method="post" onsubmit="return confirm ('Are you sure you want to log out?')";>
+				<input type="submit" value="LOG OUT" name="logout"/>
+			</form>
+			</li>
+		</ul>
+</div>
+
+<div>
+	You can search for books
+	<br>
+	You can reserve books
+</div>
 
 </body>
 </html>

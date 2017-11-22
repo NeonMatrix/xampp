@@ -377,3 +377,14 @@
 [Tue Nov 21 20:52:11.897731 2017] [mpm_winnt:notice] [pid 3896:tid 548] AH00354: Child: Starting 150 worker threads.
 [Tue Nov 21 20:54:27.870264 2017] [php7:crit] [pid 3896:tid 1916] [client ::1:54846] PHP Parse error:  syntax error, unexpected ')' in C:\\xampp\\htdocs\\CA\\register.php on line 32, referer: http://localhost/CA/index.html
 [Tue Nov 21 21:25:13.290045 2017] [php7:notice] [pid 3896:tid 1900] [client ::1:57245] PHP Notice:  Undefined variable: faname in C:\\xampp\\htdocs\\CA\\register.php on line 32, referer: http://localhost/CA/register.php
+[Wed Nov 22 11:21:30.053065 2017] [ssl:warn] [pid 2876:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 22 11:21:30.196660 2017] [core:warn] [pid 2876:tid 640] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 22 11:21:30.394788 2017] [ssl:warn] [pid 2876:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 22 11:21:30.457941 2017] [mpm_winnt:notice] [pid 2876:tid 640] AH00455: Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 configured -- resuming normal operations
+[Wed Nov 22 11:21:30.457941 2017] [mpm_winnt:notice] [pid 2876:tid 640] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 11:48:22
+[Wed Nov 22 11:21:30.457941 2017] [core:notice] [pid 2876:tid 640] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed Nov 22 11:21:30.461945 2017] [mpm_winnt:notice] [pid 2876:tid 640] AH00418: Parent: Created child process 7776
+[Wed Nov 22 11:21:32.230013 2017] [ssl:warn] [pid 7776:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 22 11:21:32.558243 2017] [ssl:warn] [pid 7776:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Nov 22 11:21:32.626792 2017] [mpm_winnt:notice] [pid 7776:tid 580] AH00354: Child: Starting 150 worker threads.
+[Wed Nov 22 12:19:38.848054 2017] [php7:error] [pid 7776:tid 1948] [client ::1:50619] script 'C:/xampp/htdocs/CA/search.php' not found or unable to stat, referer: http://localhost/CA/library.php

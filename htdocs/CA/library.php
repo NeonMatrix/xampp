@@ -46,8 +46,9 @@
 
 <div>
 		<ul>
-			<li ><a href="search.php">Search</a></li>
-			<li ><a href="reservedbooks.php">View Reserved Books</a></li>
+			<li><a class="active" href="library.php">Home</a></li>
+			<li><a href="search.php">Search</a></li>
+			<li><a href="reservedbooks.php">View Reserved Books</a></li>
 			<li style="float:right;">
 			<form method="post" onsubmit="return confirm ('Are you sure you want to log out?')";>
 				<input type="submit" value="LOG OUT" name="logout"/>
@@ -56,11 +57,18 @@
 		</ul>
 </div>
 
+<br>
+<?php
+	echo ("Hello" . " " . $_SESSION['uname']);
+?>
+<br><br>
+
 <div>
 	You can search for books
 	<br>
 	You can reserve books
 </div>
+
 
 </body>
 </html>

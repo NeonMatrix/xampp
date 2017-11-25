@@ -803,3 +803,21 @@
 [Thu Nov 23 23:45:18.576384 2017] [php7:error] [pid 16360:tid 1892] [client ::1:55575] script 'C:/xampp/htdocs/CA/index.php' not found or unable to stat, referer: http://localhost/CA/search.php?page=1
 [Thu Nov 23 23:45:24.889760 2017] [php7:notice] [pid 16360:tid 1900] [client ::1:55589] PHP Notice:  Undefined index: result_num in C:\\xampp\\htdocs\\CA\\search.php on line 219
 [Thu Nov 23 23:46:25.565656 2017] [php7:error] [pid 16360:tid 1912] [client ::1:55687] script 'C:/xampp/htdocs/CA/index.php' not found or unable to stat, referer: http://localhost/CA/search.php?page=1
+[Fri Nov 24 13:09:37.511771 2017] [ssl:warn] [pid 1264:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 24 13:09:37.666498 2017] [core:warn] [pid 1264:tid 544] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Nov 24 13:09:37.956426 2017] [ssl:warn] [pid 1264:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 24 13:09:39.820639 2017] [mpm_winnt:notice] [pid 1264:tid 544] AH00455: Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 configured -- resuming normal operations
+[Fri Nov 24 13:09:39.820639 2017] [mpm_winnt:notice] [pid 1264:tid 544] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 11:48:22
+[Fri Nov 24 13:09:39.820639 2017] [core:notice] [pid 1264:tid 544] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Fri Nov 24 13:09:39.820639 2017] [mpm_winnt:notice] [pid 1264:tid 544] AH00418: Parent: Created child process 7440
+[Fri Nov 24 13:09:42.085978 2017] [ssl:warn] [pid 7440:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 24 13:09:42.588786 2017] [ssl:warn] [pid 7440:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 24 13:09:42.664394 2017] [mpm_winnt:notice] [pid 7440:tid 604] AH00354: Child: Starting 150 worker threads.
+[Fri Nov 24 13:15:08.800036 2017] [php7:error] [pid 7440:tid 1944] [client ::1:53755] script 'C:/xampp/htdocs/lab7/login.php' not found or unable to stat
+[Fri Nov 24 13:15:28.137150 2017] [php7:error] [pid 7440:tid 1944] [client ::1:53758] script 'C:/xampp/htdocs/lab9/library.php' not found or unable to stat, referer: http://localhost/lab9/login.php
+[Fri Nov 24 13:20:56.046784 2017] [php7:error] [pid 7440:tid 1928] [client ::1:53768] script 'C:/xampp/htdocs/lab9/library.php' not found or unable to stat, referer: http://localhost/lab9/login.php
+[Fri Nov 24 13:22:14.210846 2017] [php7:notice] [pid 7440:tid 1944] [client ::1:53786] PHP Notice:  Undefined index: uname in C:\\xampp\\htdocs\\lab9\\address.php on line 50, referer: http://localhost/lab9/login.php
+[Fri Nov 24 13:24:50.419609 2017] [php7:error] [pid 7440:tid 1940] [client ::1:53796] script 'C:/xampp/htdocs/lab9/adress.php' not found or unable to stat
+[Fri Nov 24 13:24:58.670319 2017] [php7:notice] [pid 7440:tid 1928] [client ::1:53797] PHP Notice:  Undefined index: uname in C:\\xampp\\htdocs\\lab9\\address.php on line 50
+[Fri Nov 24 13:27:07.627791 2017] [php7:notice] [pid 7440:tid 1936] [client ::1:53804] PHP Notice:  Undefined index: uname in C:\\xampp\\htdocs\\lab9\\address.php on line 50
+[Fri Nov 24 13:27:54.865980 2017] [php7:notice] [pid 7440:tid 1940] [client ::1:53811] PHP Notice:  Undefined index: uname in C:\\xampp\\htdocs\\lab9\\address.php on line 50, referer: http://localhost/lab9/login.php

@@ -62,15 +62,14 @@
 		<p>Password:
 		<input class="loginform" type="password" name="password"></p>
 		<br>
-		<p><input class="loginform" type="submit" value="Login"/></p>
+		<p><input class="submit '" type="submit" value="Login"/></p>
 	</form>
-</div>
 
-<br><br><br>
-
-<div>
+	<div>
 	<h3>If you have no registered yet, please register <a href="register.php">here</a></h3>
 </div>
+</div>
+
 
 </body>
 </html>

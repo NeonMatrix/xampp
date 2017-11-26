@@ -1,3 +1,19 @@
+html
+{
+    background: linear-gradient(lightgreen, darkgreen);
+    background-size: fill; 
+    background-repeat:repeat-x;
+}
+
+html, 
+body {
+    height: 100%;
+    background: linear-gradient(lightgreen, darkgreen);
+    background-size: fill; 
+    background-repeat:repeat-x;
+    background-color: darkgreen;
+}
+
 header
 {
 	font-size: 7vh;
@@ -7,18 +23,38 @@ header
 
 #login
 {
-	padding:25%;
+	
 	text-align: center;
 	font-size: 2vw;
 	font-size: 4vh;
 }
 
-#register
-{
-	padding:5%;
-	border-style: inset;
-	border-width: 10px;
-	width: 50%;
+@media screen and (max-width: 1000px) {
+    #register
+    {
+        display:block;
+        margin: 0 auto;
+        font-size: 3vh;
+        background-color: white;
+        padding: 10%;
+        border-style: inset;
+        border-width: 10px;
+        width: 55%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #register
+    {
+        display:block;
+        margin: 0 auto;
+        font-size: 3vh;
+        background-color: white;
+        padding: 5%;
+    	border-style: inset;
+    	border-width: 10px;
+    	width: 25%;
+    }
 }
 
 .loginform
@@ -28,17 +64,28 @@ header
     color: black;	
 }
 
+.submit
+{
+    display:block; /* change this from inline-block */
+    //width:20%; /* setting the width */
+    margin:0 auto; /* this will center  it */
+    //position:relative;
+    font-size: 3vh;
+}
+
 input[type=submit].loginform
 {
 	float: none;
 }
 
 ul {
+    width: 70%;
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    font-size: 150%;
 }
 
 li {
@@ -59,5 +106,105 @@ li a:hover {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #139607;
+}
+
+.button {
+    background-color: #139607; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 100%;
+}
+
+#home
+{
+    border-style: inset;
+    border-width: 10px;
+    display: block;
+    margin: 2% auto;
+    width: 70%;
+    background: white;
+    text-align: center;
+    font-size: 200%;
+}
+
+#book
+{
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px) {
+    #page
+    {
+        border-style: inset;
+        border-width: 10px;
+        display: block;
+        margin: 2% auto;
+        width: 100%;
+        background: white;
+        text-align: center;
+        font-size: 100%;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    #page
+    {
+        border-style: inset;
+        border-width: 10px;
+        display: block;
+        margin: 2% auto;
+        width: 70%;
+        background: white;
+        text-align: center;
+        font-size: 100%;
+    }
+}
+
+table, th, td {
+   /*border: 1px solid black; */
+   border: none;
+    border-collapse: collapse;
+   padding: 1%;
+   margin: auto 0;
+   font-size: 125%;
+}
+
+tr:nth-child(odd) 
+{
+    background-color: lightgreen;
+}
+
+th, td {
+    text-align: left;
+}
+
+table
+{
+    width: 100%;
+}
+
+#columnHeader
+{
+    background-color: #139607;
+    color: white;
+}
+
+.reserveButton
+{
+   background-color: #139607; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
 }

@@ -28,7 +28,7 @@
 	
 	if($logout == "LOG OUT")
 	{
-		session_destroy();
+		//session_destroy();
 
 		echo '<script type="text/javascript">
 						function Redirect()
@@ -42,31 +42,43 @@
 	}
 ?>
 
-<header>Welcome to the library</header>
+<header><img src="assets/logo.png" width="50%"></header>
+
 
 <div>
 		<ul>
 			<li><a class="active" href="library.php">Home</a></li>
 			<li><a href="search.php">Search</a></li>
-			<li><a href="reservedbooks.php">View Reserved Books</a></li>
+			<li><a href="reserved.php">View Reserved Books</a></li>
 			<li style="float:right;">
-			<form method="post" onsubmit="return confirm ('Are you sure you want to log out?')";>
-				<input type="submit" value="LOG OUT" name="logout"/>
-			</form>
+				<form method="post" onsubmit="return confirm ('Are you sure you want to log out?')";>
+				<button class="button" type="submit" value="LOG OUT" name="logout">Log out</botton>
+				</form>
 			</li>
 		</ul>
 </div>
 
-<br>
+
+<div id="home">
+
 <?php
-	echo ("Hello" . " " . $_SESSION['uname']);
+	echo ("<header> Hello" . " " . $_SESSION['uname'] . ", welcome to Povilas Library </header>");
 ?>
 <br><br>
 
-<div>
-	You can search for books
-	<br>
-	You can reserve books
+<img id="book" src="assets/book.png" width="30%">
+
+<p>
+	Here you can look at our book stock. 
+	Search through our books, 
+	reserve books to pick them up later to read.
+</p>
+<p>
+	You can search and reserve books our books <a href="search.php">here</a>.
+</p>
+<p>
+	You can check your reserevd books and remove them <a href="reserved.php">here</a>.
+</p>
 </div>
 
 

@@ -42,21 +42,22 @@
 	}
 ?>
 
-<header>Welcome to the library</header>
+<header><img src="assets/logo.png" width="50%"></header>
 
 <div>
 		<ul>
 			<li><a href="library.php">Home</a></li>
 			<li><a class="active" href="search.php">Search</a></li>
-			<li><a href="reservedbooks.php">View Reserved Books</a></li>
+			<li><a href="reserved.php">View Reserved Books</a></li>
 			<li style="float:right;">
-			<form method="post" onsubmit="return confirm ('Are you sure you want to log out?')";>
-				<input type="submit" value="LOG OUT" name="logout"/>
-			</form>
+				<form method="post" onsubmit="return confirm ('Are you sure you want to log out?')";>
+				<button class="button" type="submit" value="LOG OUT" name="logout">Log out</botton>
+				</form>
 			</li>
 		</ul>
 </div>
-
+<div id="page">
+<header> Search for books</header>
 
 <?php
 
@@ -66,12 +67,30 @@
 	$booktitle = isset($_POST['booktitle']) ? $_POST['booktitle'] : '';
 	$author = isset($_POST['author']) ? $_POST['author'] : '';
 	$category = isset($_POST['category']) ? $_POST['category'] : '';
+	$reserve = isset($_POST['reserve']) ? $_POST['reserve'] : '';
+	$uname = $_SESSION['uname'];
+
+	if ($reserve != '') 
+	{
+		mysqli_query($db, "INSERT INTO reservations (ISBN, Username, ReservedDate)
+		VALUES ('$reserve', '$uname', NOW()) ");
+
+		mysqli_query($db, "UPDATE books SET Reserved = 'Y' WHERE ISBN = '$reserve' ");
+	}
+
+	/*
+	if(!isset($GLOBALS['result_num']) )
+	{
+		$GLOBALS['result_num'] = 0;
+	}
+
 
 	if (isset($_GET["page"])) { $page  = $_GET["page"]; } else { $page=1; };
+	echo ($page);
 	$results_per_page = 5; 
 	$start_from = ($page-1) * $results_per_page;
 
-
+	*/
 
 	if ($booktitle == '' AND $author == '' AND $category == '') 
 	{
@@ -85,35 +104,45 @@
 
 		if ($booktitle != '' AND $author == '') 
 		{
-			$result = mysqli_query($db, "SELECT * FROM books WHERE (booktitle LIKE '%$booktitle%') LIMIT $start_from, " . $results_per_page );
+			//$result = mysqli_query($db, "SELECT * FROM books WHERE (booktitle LIKE '%$booktitle%') LIMIT $start_from, " . $results_per_page );
 
-			$number_of_results = mysqli_query($db, "SELECT COUNT(booktitle) FROM books WHERE (booktitle LIKE '%$booktitle%') LIMIT $start_from, " . $results_per_page );
-			$row = mysqli_fetch_row($number_of_results);
+			$result = mysqli_query($db, "SELECT * FROM books WHERE (booktitle LIKE '%$booktitle%') ");
+
+			//$number_of_results = mysqli_query($db, "SELECT COUNT(booktitle) FROM books WHERE (booktitle LIKE '%$booktitle%') LIMIT $start_from, " . $results_per_page );
+			//$row = mysqli_fetch_row($number_of_results);
 			
-			$GLOBALS['result_num'] = $row[0];
+			//$GLOBALS['result_num'] = $row[0];
 			displayResult($result);
 		}
 
 		if ($booktitle == '' AND $author != '') 
 		{
+			$result = mysqli_query($db, "SELECT * FROM books WHERE (author LIKE '%$author%')");
+
+			/*
 			$result = mysqli_query($db, "SELECT * FROM books WHERE (author LIKE '%$author%') LIMIT $start_from, " . $results_per_page );
 
 			$number_of_results = mysqli_query($db, "SELECT COUNT(booktitle) FROM booksWHERE (author LIKE '%$author%') LIMIT $start_from, " . $results_per_page );
 			$row = mysqli_fetch_row($number_of_results);
 			
 			$GLOBALS['result_num'] = $row[0];
+			*/
 
 			displayResult($result);
 		}
 
 		if ($booktitle != '' AND $author != '') 
 		{
+
+			$result = mysqli_query($db, "SELECT * FROM books WHERE(booktitle LIKE '%$booktitle%') AND (author LIKE '%$author%')");
+			/*
 			$result = mysqli_query($db, "SELECT * FROM books WHERE(booktitle LIKE '%$booktitle%') AND (author LIKE '%$author%') LIMIT $start_from, " . $results_per_page );
 
 			$number_of_results = mysqli_query($db, "SELECT COUNT(booktitle) FROM books  WHERE(booktitle LIKE '%$booktitle%') AND (author LIKE '%$author%') LIMIT $start_from, " . $results_per_page );
 			$row = mysqli_fetch_row($number_of_results);
 			
 			$GLOBALS['result_num'] = $row[0];
+			*/
 			displayResult($result);
 		}
 	}
@@ -121,17 +150,21 @@
 	// Searching with Category Search
 	if ($category != '') 
 	{
-		$result = mysqli_query($db, "SELECT categoryID FROM categories WHERE CategoryDescription = '$category'  LIMIT $start_from, " . $results_per_page );
+		$result = mysqli_query($db, "SELECT categoryID FROM categories WHERE CategoryDescription = '$category' ");
+		
+		//$result = mysqli_query($db, "SELECT categoryID FROM categories WHERE CategoryDescription = '$category'  LIMIT $start_from, " . $results_per_page );
+
+
 		$row = mysqli_fetch_row($result);
 
 		$categoryNum = $row[0];
 
 		$result = mysqli_query($db, "SELECT * FROM books WHERE category = '$categoryNum' ");
 
-		$number_of_results = mysqli_query($db, "SELECT COUNT(category) FROM books WHERE category = '$categoryNum' ");
-		$row = mysqli_fetch_row($number_of_results);
+		//$number_of_results = mysqli_query($db, "SELECT COUNT(category) FROM books WHERE category = '$categoryNum' ");
+		//$row = mysqli_fetch_row($number_of_results);
 		
-		$GLOBALS['result_num'] = $row[0];
+		//$GLOBALS['result_num'] = $row[0];
 
 		displayResult($result);
 	}
@@ -151,8 +184,8 @@
 			$category = $row[1];
 		}
 
-		echo '<table border="1" >' . '<br>';
-		echo '<tr>
+		echo '<table>' . '<br>';
+		echo '<tr id="columnHeader">
 				<td>ISBN</td>
 				<td>Book Title</td>
 				<td>Author</td>
@@ -163,21 +196,31 @@
 			</tr>';
 
 		mysqli_data_seek($result, 0);
-
 		while ($row = mysqli_fetch_row($result)) 
 		{
 			echo "<tr>";
 				for ($i = 0; $i < sizeof($row); $i++) 
 				{
-					if ($i == 5) 
-					{
-					 	echo("<td>".$category."</td>");
-					}
-					else
-					{ 
-						echo("<td>".$row[$i]."</td>");
-					}
+						if ($i == 5) 
+						{
+						 	echo('<td>'.$category.'</td>');
+						}
+						else
+						{ 
+							echo('<td>'.$row[$i].'</td>');
+						}
+					
+			
 
+				}
+				if ($row[6] != 'Y') {
+					echo '<td>
+						<form method="post">
+							<button class="reserveButton" type="submit" value="' . $row[0] . '" name="reserve">Reserve</nuton>
+
+						</form>						
+
+						';
 				}
 			
 			echo "</tr>";
@@ -185,7 +228,6 @@
 	}
 
 ?>
-
 
 <form method="post">
 	<p>
@@ -215,18 +257,19 @@
 
 
 <?php
-	
+/*	
 	$total_pages = ceil($GLOBALS['result_num'] / $results_per_page);
 
 	//echo ($total_pages);
 	for ($i=1; $i<=$total_pages; $i++) {  // print links for all pages
-            echo "<a href='index.php?page=".$i."'";
+            echo "<a href='search.php?page=".$i."'";
             if ($i==$page)  echo " class='curPage'";
             echo ">".$i."</a> "; 
-}; 
-
+}
+*/
 	mysqli_close($db);
-?>
 
+?>
+</div>
 </body>
 </html>

@@ -125,7 +125,7 @@
 		<p>Mobile:
 		<input class="loginform" type="number" name="mobile"></p>
 		<br>
-		<p><input type="submit" value="Register" /></p>
+		<p><input class="submit" type="submit" value="Register" /></p>
 	</form>
 
 </div>

@@ -62,7 +62,7 @@
 		<p>Password:
 		<input class="loginform" type="password" name="password"></p>
 		<br>
-		<p><input class="submit '" type="submit" value="Login"/></p>
+		<p><input class="submit" type="submit" value="Login"/></p>
 	</form>
 
 	<div>

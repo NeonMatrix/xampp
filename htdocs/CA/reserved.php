@@ -110,7 +110,7 @@ $db = mysqli_connect('localhost', 'root', '') or die(mysqli_error($db));
 	}
 	else
 	{
-		echo "No Reserved Books";
+		echo "<p>No Reserved Books</p>";
 	}
 
 

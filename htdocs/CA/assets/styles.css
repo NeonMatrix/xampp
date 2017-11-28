@@ -64,6 +64,11 @@ header
     color: black;	
 }
 
+a
+{
+    text-decoration: none;
+}
+
 .submit
 {
     display:block; /* change this from inline-block */
@@ -121,17 +126,35 @@ li a:hover {
     font-size: 100%;
 }
 
-#home
-{
-    border-style: inset;
-    border-width: 10px;
-    display: block;
-    margin: 2% auto;
-    width: 70%;
-    background: white;
-    text-align: center;
-    font-size: 200%;
+
+@media screen and (max-width: 1000px) {
+    #home
+    {
+        border-style: inset;
+        border-width: 10px;
+        display: block;
+        margin: 2% auto;
+        width:100%;
+        background: white;
+        text-align: center;
+        font-size: 120%;
+    }
 }
+
+@media screen and (min-width: 1000px) {
+    #home
+    {
+        border-style: inset;
+        border-width: 10px;
+        display: block;
+        margin: 2% auto;
+        width:70%;
+        background: white;
+        text-align: center;
+        font-size: 120%;
+    }
+}
+
 
 #book
 {
@@ -149,7 +172,7 @@ li a:hover {
         width: 100%;
         background: white;
         text-align: center;
-        font-size: 100%;
+        font-size: 120%;
     }
 }
 
@@ -164,7 +187,7 @@ li a:hover {
         width: 70%;
         background: white;
         text-align: center;
-        font-size: 100%;
+        font-size: 120%;
     }
 }
 
@@ -174,7 +197,7 @@ table, th, td {
     border-collapse: collapse;
    padding: 1%;
    margin: auto 0;
-   font-size: 125%;
+   font-size: 100%;
 }
 
 tr:nth-child(odd) 

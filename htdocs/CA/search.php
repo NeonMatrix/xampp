@@ -44,6 +44,15 @@
 
 <header><img src="assets/logo.png" width="50%"></header>
 
+<script type="text/javascript">
+	function Redirect(url)
+	{
+		location = url;
+	}
+	
+	//Redirect();
+</script>
+
 <div>
 		<ul>
 			<li><a href="library.php">Home</a></li>
@@ -56,6 +65,8 @@
 			</li>
 		</ul>
 </div>
+
+
 <div id="page">
 <header> Search for books</header>
 
@@ -73,7 +84,7 @@
 	if ($reserve != '') 
 	{
 		mysqli_query($db, "INSERT INTO reservations (ISBN, Username, ReservedDate)
-		VALUES ('$reserve', '$uname', NOW()) ");
+		VALUES ('$reserve', '$uname', NOW() ) ");
 
 		mysqli_query($db, "UPDATE books SET Reserved = 'Y' WHERE ISBN = '$reserve' ");
 	}
@@ -170,19 +181,10 @@
 	}
 
 
-	function displayResult($result, $category='')
+	function displayResult($result)
 	{
 		$db = mysqli_connect('localhost', 'root', '') or die(mysqli_error($db));
 		mysqli_select_db($db, 'ca') or die(mysqli_error($db));
-
-		if ($category == '') 
-		{
-			$row = mysqli_fetch_row($result);
-			$categoryNum = $row[5];
-			$category = mysqli_query($db, "SELECT * FROM categories WHERE CategoryID = '$categoryNum'");
-			$row = mysqli_fetch_row($category);
-			$category = $row[1];
-		}
 
 		echo '<table>' . '<br>';
 		echo '<tr id="columnHeader">
@@ -199,23 +201,23 @@
 		while ($row = mysqli_fetch_row($result)) 
 		{
 			echo "<tr>";
+			$category = mysqli_query($db, "SELECT CategoryDescription FROM categories WHERE CategoryID = '$row[5]' ");
+			$category = mysqli_fetch_row($category);
+
 				for ($i = 0; $i < sizeof($row); $i++) 
 				{
 						if ($i == 5) 
 						{
-						 	echo('<td>'.$category.'</td>');
+						 	echo('<td>'.$category[0].'</td>');
 						}
 						else
 						{ 
 							echo('<td>'.$row[$i].'</td>');
-						}
-					
-			
-
+						}	
 				}
 				if ($row[6] != 'Y') {
 					echo '<td>
-						<form method="post">
+						<form method="post" onsubmit="location= ">
 							<button class="reserveButton" type="submit" value="' . $row[0] . '" name="reserve">Reserve</nuton>
 
 						</form>						
@@ -236,22 +238,23 @@
 
 		<input type="submit" value="Search"/>
 	</p>
-	<br>
-	<p>
-		Book Category:
-		<select name="category">
+		<br>
+		<p>
+			Book Category:
+			<select name="category">
 
-			<?php
+				<?php
 
-				$result = mysqli_query($db, 'SELECT CategoryDescription FROM categories');
-				while ($row = mysqli_fetch_row($result)) 
-				{
-					echo '<option value= "'.$row[0].'">'.$row[0]. '</option>';
-				}
-			?>
- 		</select>
+					$result = mysqli_query($db, 'SELECT CategoryDescription FROM categories');
+					while ($row = mysqli_fetch_row($result)) 
+					{
+						echo '<option value= "'.$row[0].'">'.$row[0]. '</option>';
+					}
+				?>
+	 		</select>
 
-		<input type="submit" value="Search"/></p>
+			<input type="submit" value="Search"/>
+		</p>
 </form>
 
 

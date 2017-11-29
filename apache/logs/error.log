@@ -999,3 +999,18 @@
 [Mon Nov 27 18:24:17.002738 2017] [php7:notice] [pid 136:tid 1936] [client ::1:51954] PHP Notice:  Undefined variable: db in C:\\xampp\\htdocs\\CA\\search.php on line 88, referer: http://localhost/CA/search.php?name=567576?search=gayporngfsdagfhugufyvuiewhvhqwojhrgiouejkfsdvguiehfbgu90ierjgf13hjguo24jhfgu9eriohgu89u32oihefgvy83qkhegvft7w83
 [Mon Nov 27 18:24:17.002738 2017] [php7:warn] [pid 136:tid 1936] [client ::1:51954] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\\xampp\\htdocs\\CA\\search.php on line 88, referer: http://localhost/CA/search.php?name=567576?search=gayporngfsdagfhugufyvuiewhvhqwojhrgiouejkfsdvguiehfbgu90ierjgf13hjguo24jhfgu9eriohgu89u32oihefgvy83qkhegvft7w83
 [Mon Nov 27 18:24:17.006741 2017] [php7:warn] [pid 136:tid 1936] [client ::1:51954] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in C:\\xampp\\htdocs\\CA\\search.php on line 89, referer: http://localhost/CA/search.php?name=567576?search=gayporngfsdagfhugufyvuiewhvhqwojhrgiouejkfsdvguiehfbgu90ierjgf13hjguo24jhfgu9eriohgu89u32oihefgvy83qkhegvft7w83
+[Tue Nov 28 19:15:40.983471 2017] [ssl:warn] [pid 5536:tid 212] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 28 19:15:41.029035 2017] [core:warn] [pid 5536:tid 212] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Nov 28 19:15:41.088671 2017] [ssl:warn] [pid 5536:tid 212] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 28 19:15:41.456792 2017] [mpm_winnt:notice] [pid 5536:tid 212] AH00455: Apache/2.4.27 (Win32) OpenSSL/1.0.2l PHP/7.1.9 configured -- resuming normal operations
+[Tue Nov 28 19:15:41.457294 2017] [mpm_winnt:notice] [pid 5536:tid 212] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 11:48:22
+[Tue Nov 28 19:15:41.457294 2017] [core:notice] [pid 5536:tid 212] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Nov 28 19:15:41.476345 2017] [mpm_winnt:notice] [pid 5536:tid 212] AH00418: Parent: Created child process 9096
+[Tue Nov 28 19:15:43.527376 2017] [ssl:warn] [pid 9096:tid 200] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 28 19:15:43.633623 2017] [ssl:warn] [pid 9096:tid 200] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 28 19:15:43.801571 2017] [mpm_winnt:notice] [pid 9096:tid 200] AH00354: Child: Starting 150 worker threads.
+[Tue Nov 28 23:53:33.327403 2017] [php7:error] [pid 9096:tid 1892] [client ::1:53578] script 'C:/xampp/htdocs/CA/home.php' not found or unable to stat
+[Tue Nov 28 23:53:38.421701 2017] [php7:error] [pid 9096:tid 1892] [client ::1:53614] script 'C:/xampp/htdocs/CA/home.php' not found or unable to stat
+[Tue Nov 28 23:53:50.132607 2017] [php7:notice] [pid 9096:tid 1924] [client ::1:53657] PHP Notice:  Undefined index: uname in C:\\xampp\\htdocs\\CA\\search.php on line 82
+[Wed Nov 29 00:36:33.305399 2017] [php7:error] [pid 9096:tid 1932] [client ::1:61890] script 'C:/xampp/htdocs/CA/home.php' not found or unable to stat
+[Wed Nov 29 00:39:12.888199 2017] [php7:notice] [pid 9096:tid 1908] [client ::1:62451] PHP Notice:  Undefined index: uname in C:\\xampp\\htdocs\\CA\\library.php on line 66

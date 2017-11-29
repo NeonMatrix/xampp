@@ -44,15 +44,6 @@
 
 <header><img src="assets/logo.png" width="50%"></header>
 
-<script type="text/javascript">
-	function Redirect(url)
-	{
-		location = url;
-	}
-	
-	//Redirect();
-</script>
-
 <div>
 		<ul>
 			<li><a href="library.php">Home</a></li>
@@ -89,19 +80,6 @@
 		mysqli_query($db, "UPDATE books SET Reserved = 'Y' WHERE ISBN = '$reserve' ");
 	}
 
-	/*
-	if(!isset($GLOBALS['result_num']) )
-	{
-		$GLOBALS['result_num'] = 0;
-	}
-
-
-	if (isset($_GET["page"])) { $page  = $_GET["page"]; } else { $page=1; };
-	echo ($page);
-	$results_per_page = 5; 
-	$start_from = ($page-1) * $results_per_page;
-
-	*/
 
 	if ($booktitle == '' AND $author == '' AND $category == '') 
 	{
@@ -115,29 +93,15 @@
 
 		if ($booktitle != '' AND $author == '') 
 		{
-			//$result = mysqli_query($db, "SELECT * FROM books WHERE (booktitle LIKE '%$booktitle%') LIMIT $start_from, " . $results_per_page );
 
 			$result = mysqli_query($db, "SELECT * FROM books WHERE (booktitle LIKE '%$booktitle%') ");
 
-			//$number_of_results = mysqli_query($db, "SELECT COUNT(booktitle) FROM books WHERE (booktitle LIKE '%$booktitle%') LIMIT $start_from, " . $results_per_page );
-			//$row = mysqli_fetch_row($number_of_results);
-			
-			//$GLOBALS['result_num'] = $row[0];
 			displayResult($result);
 		}
 
 		if ($booktitle == '' AND $author != '') 
 		{
 			$result = mysqli_query($db, "SELECT * FROM books WHERE (author LIKE '%$author%')");
-
-			/*
-			$result = mysqli_query($db, "SELECT * FROM books WHERE (author LIKE '%$author%') LIMIT $start_from, " . $results_per_page );
-
-			$number_of_results = mysqli_query($db, "SELECT COUNT(booktitle) FROM booksWHERE (author LIKE '%$author%') LIMIT $start_from, " . $results_per_page );
-			$row = mysqli_fetch_row($number_of_results);
-			
-			$GLOBALS['result_num'] = $row[0];
-			*/
 
 			displayResult($result);
 		}
@@ -146,14 +110,7 @@
 		{
 
 			$result = mysqli_query($db, "SELECT * FROM books WHERE(booktitle LIKE '%$booktitle%') AND (author LIKE '%$author%')");
-			/*
-			$result = mysqli_query($db, "SELECT * FROM books WHERE(booktitle LIKE '%$booktitle%') AND (author LIKE '%$author%') LIMIT $start_from, " . $results_per_page );
 
-			$number_of_results = mysqli_query($db, "SELECT COUNT(booktitle) FROM books  WHERE(booktitle LIKE '%$booktitle%') AND (author LIKE '%$author%') LIMIT $start_from, " . $results_per_page );
-			$row = mysqli_fetch_row($number_of_results);
-			
-			$GLOBALS['result_num'] = $row[0];
-			*/
 			displayResult($result);
 		}
 	}
@@ -162,20 +119,12 @@
 	if ($category != '') 
 	{
 		$result = mysqli_query($db, "SELECT categoryID FROM categories WHERE CategoryDescription = '$category' ");
-		
-		//$result = mysqli_query($db, "SELECT categoryID FROM categories WHERE CategoryDescription = '$category'  LIMIT $start_from, " . $results_per_page );
-
 
 		$row = mysqli_fetch_row($result);
 
 		$categoryNum = $row[0];
 
 		$result = mysqli_query($db, "SELECT * FROM books WHERE category = '$categoryNum' ");
-
-		//$number_of_results = mysqli_query($db, "SELECT COUNT(category) FROM books WHERE category = '$categoryNum' ");
-		//$row = mysqli_fetch_row($number_of_results);
-		
-		//$GLOBALS['result_num'] = $row[0];
 
 		displayResult($result);
 	}
@@ -260,18 +209,7 @@
 
 
 <?php
-/*	
-	$total_pages = ceil($GLOBALS['result_num'] / $results_per_page);
-
-	//echo ($total_pages);
-	for ($i=1; $i<=$total_pages; $i++) {  // print links for all pages
-            echo "<a href='search.php?page=".$i."'";
-            if ($i==$page)  echo " class='curPage'";
-            echo ">".$i."</a> "; 
-}
-*/
 	mysqli_close($db);
-
 ?>
 </div>
 </body>

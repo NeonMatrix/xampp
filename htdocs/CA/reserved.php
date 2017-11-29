@@ -58,7 +58,7 @@
 </div>
 
 <div id="page">
-<header> Your resevered books</header>
+<header> Your reserved books</header>
 
 <?php
 $db = mysqli_connect('localhost', 'root', '') or die(mysqli_error($db));
@@ -101,7 +101,7 @@ $db = mysqli_connect('localhost', 'root', '') or die(mysqli_error($db));
 			
 				echo '<td>
 						<form method="post">
-							<button class="reserveButton" type="submit" value="' . $row[0] . '" name="reserve">Remove</nuton>
+							<button class="reserveButton" type="submit" value="' . $row[0] . '" name="reserve">Remove</button>
 
 						</form>	';
 			
@@ -117,3 +117,5 @@ $db = mysqli_connect('localhost', 'root', '') or die(mysqli_error($db));
 
 ?>
 </div>
+</body>
+</html>
